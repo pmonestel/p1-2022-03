@@ -1,0 +1,24 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: #2C3A47;
+    height: 60px;
+}
+
+header nav a {
+    color: #fff;
+}
+
+h1 {
+    color: #6D214F;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #B33771;
+    font-size: 28px;
+    font-weight: bold;
+}

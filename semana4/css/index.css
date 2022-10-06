@@ -1,0 +1,44 @@
+#sct-contenedor {
+    /* Acomoda los elemntos hijos según su eje secundario */
+    align-items: center;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    /* Acomoda los elementos según su eje principal */
+    justify-content: space-evenly;
+}
+
+.caja {
+    align-items: center;
+    border: 2px solid #2f3640;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    width: 75px;
+}
+
+.rojo {
+    background: #eb3b5a;
+    order: 1;
+}
+
+.naranja {
+    background: #fa8231;
+    order: 4;
+}
+
+.amarillo {
+    background: #f7b731;
+    order: 0;
+}
+
+.verde {
+    background: #20bf6b;
+    order: 3;
+}
+
+.azul {
+    background: #45aaf2;
+    order: 2;
+}

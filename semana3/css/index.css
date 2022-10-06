@@ -1,0 +1,50 @@
+/* Estilos generales de los botones */
+
+.sct-clara {
+    height: 100vh;
+}
+
+.sct-oscura {
+    background: #2C3A47;
+    height: 100vh;
+}
+
+.btn-oscuro {
+    background: #6D214F;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+}
+
+.btn-oscuro:hover {
+    background: #B33771;
+    cursor: pointer;
+}
+
+.btn-claro {
+    background: transparent;
+    border: 2px solid #CAD3C8;
+    border-radius: 5px;
+    color: #CAD3C8;
+    height: 40px;
+    width: 150px;
+}
+
+.btn-claro:hover {
+    color: #fff;
+}
+
+
+/* Estilos del header principal */
+
+#header-principal {
+    background: #000;
+    height: 10vh;
+}
+
+#header-principal nav a {
+    color: #fff;
+    text-decoration: none;
+}
