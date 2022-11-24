@@ -1,0 +1,27 @@
+.input-error {
+    border: 2px solid #eb3b5a;
+}
+
+.obesidad-3 {
+    background: #EB5A5F;
+}
+
+.obesidad-2 {
+    background: #FF9252;
+}
+
+.obesidad-1 {
+    background: #FEA851;
+}
+
+.sobrepeso {
+    background: #FFDE63;
+}
+
+.normal {
+    background: #C9E26C;
+}
+
+.bajo {
+    background: #53E1E5;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/imc.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registrar recetas de cocina</h1>
+    <form>
+        <div>
+            <label for="txt-nombre">Nombre de la receta:</label>
+            <input type="text" id="txt-nombre" class="requerido">
+        </div>
+
+        <div>
+            <label for="slt-tipo">Tipo</label>
+            <select id="slt-tipo" class="requerido">
+                <option value="">-- Tipo --</option>
+                <option value="Desayuno">Desayuno</option>
+                <option value="Almuerzo">Almuerzo</option>
+                <option value="Cena">Cena</option>
+                <option value="Snack">Snack</option>
+            </select>
+        </div>
+
+        <button type="button" id="btn-registrar">Registrar</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/servicio-general.js"></script>
+    <script src="js/registrar-receta.js"></script>
+
+</body>
+
+</html>
